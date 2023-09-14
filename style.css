@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+} 
+
+p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    
+}
+
+.search-bar {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.search-bar h2 {
+    margin-bottom: 1rem;
+}
+
+.search-bar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input[type="text"],
+.search-bar input[type="date"] {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.office-listings {
+  columns: 5 15em;
+  margin: 30px;
+
+     
+}
+
+
+.listing {
+    border-radius: 10px;
+    overflow: hidden;   
+}
+
+.listing img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 20px;  
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
